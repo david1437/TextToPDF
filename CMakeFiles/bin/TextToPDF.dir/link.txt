@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/bin/TextToPDF.dir/src/main.cpp.o  -o bin/TextToPDF -rdynamic 

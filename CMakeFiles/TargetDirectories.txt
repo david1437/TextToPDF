@@ -1,0 +1,3 @@
+/home/david/Documents/c++/Projects/TextToPDF/CMakeFiles/rebuild_cache.dir
+/home/david/Documents/c++/Projects/TextToPDF/CMakeFiles/edit_cache.dir
+/home/david/Documents/c++/Projects/TextToPDF/CMakeFiles/bin/TextToPDF.dir

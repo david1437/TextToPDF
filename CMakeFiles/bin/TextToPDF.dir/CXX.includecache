@@ -9,4 +9,8 @@
 /home/david/Documents/c++/Projects/TextToPDF/src/main.cpp
 iostream
 -
+string
+-
+fstream
+-
 

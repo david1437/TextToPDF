@@ -123,6 +123,141 @@ bin/TextToPDF/fast:
 	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/build
 .PHONY : bin/TextToPDF/fast
 
+src/EntryPoint.o: src/EntryPoint.cpp.o
+
+.PHONY : src/EntryPoint.o
+
+# target to build an object file
+src/EntryPoint.cpp.o:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o
+.PHONY : src/EntryPoint.cpp.o
+
+src/EntryPoint.i: src/EntryPoint.cpp.i
+
+.PHONY : src/EntryPoint.i
+
+# target to preprocess a source file
+src/EntryPoint.cpp.i:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.i
+.PHONY : src/EntryPoint.cpp.i
+
+src/EntryPoint.s: src/EntryPoint.cpp.s
+
+.PHONY : src/EntryPoint.s
+
+# target to generate assembly for a file
+src/EntryPoint.cpp.s:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.s
+.PHONY : src/EntryPoint.cpp.s
+
+src/Font.o: src/Font.cpp.o
+
+.PHONY : src/Font.o
+
+# target to build an object file
+src/Font.cpp.o:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o
+.PHONY : src/Font.cpp.o
+
+src/Font.i: src/Font.cpp.i
+
+.PHONY : src/Font.i
+
+# target to preprocess a source file
+src/Font.cpp.i:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.i
+.PHONY : src/Font.cpp.i
+
+src/Font.s: src/Font.cpp.s
+
+.PHONY : src/Font.s
+
+# target to generate assembly for a file
+src/Font.cpp.s:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.s
+.PHONY : src/Font.cpp.s
+
+src/Layout.o: src/Layout.cpp.o
+
+.PHONY : src/Layout.o
+
+# target to build an object file
+src/Layout.cpp.o:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o
+.PHONY : src/Layout.cpp.o
+
+src/Layout.i: src/Layout.cpp.i
+
+.PHONY : src/Layout.i
+
+# target to preprocess a source file
+src/Layout.cpp.i:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.i
+.PHONY : src/Layout.cpp.i
+
+src/Layout.s: src/Layout.cpp.s
+
+.PHONY : src/Layout.s
+
+# target to generate assembly for a file
+src/Layout.cpp.s:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.s
+.PHONY : src/Layout.cpp.s
+
+src/Page.o: src/Page.cpp.o
+
+.PHONY : src/Page.o
+
+# target to build an object file
+src/Page.cpp.o:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o
+.PHONY : src/Page.cpp.o
+
+src/Page.i: src/Page.cpp.i
+
+.PHONY : src/Page.i
+
+# target to preprocess a source file
+src/Page.cpp.i:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.i
+.PHONY : src/Page.cpp.i
+
+src/Page.s: src/Page.cpp.s
+
+.PHONY : src/Page.s
+
+# target to generate assembly for a file
+src/Page.cpp.s:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.s
+.PHONY : src/Page.cpp.s
+
+src/PageContent.o: src/PageContent.cpp.o
+
+.PHONY : src/PageContent.o
+
+# target to build an object file
+src/PageContent.cpp.o:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o
+.PHONY : src/PageContent.cpp.o
+
+src/PageContent.i: src/PageContent.cpp.i
+
+.PHONY : src/PageContent.i
+
+# target to preprocess a source file
+src/PageContent.cpp.i:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.i
+.PHONY : src/PageContent.cpp.i
+
+src/PageContent.s: src/PageContent.cpp.s
+
+.PHONY : src/PageContent.s
+
+# target to generate assembly for a file
+src/PageContent.cpp.s:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.s
+.PHONY : src/PageContent.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -150,6 +285,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/xref.o: src/xref.cpp.o
+
+.PHONY : src/xref.o
+
+# target to build an object file
+src/xref.cpp.o:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o
+.PHONY : src/xref.cpp.o
+
+src/xref.i: src/xref.cpp.i
+
+.PHONY : src/xref.i
+
+# target to preprocess a source file
+src/xref.cpp.i:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.i
+.PHONY : src/xref.cpp.i
+
+src/xref.s: src/xref.cpp.s
+
+.PHONY : src/xref.s
+
+# target to generate assembly for a file
+src/xref.cpp.s:
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.s
+.PHONY : src/xref.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +321,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... bin/TextToPDF"
+	@echo "... src/EntryPoint.o"
+	@echo "... src/EntryPoint.i"
+	@echo "... src/EntryPoint.s"
+	@echo "... src/Font.o"
+	@echo "... src/Font.i"
+	@echo "... src/Font.s"
+	@echo "... src/Layout.o"
+	@echo "... src/Layout.i"
+	@echo "... src/Layout.s"
+	@echo "... src/Page.o"
+	@echo "... src/Page.i"
+	@echo "... src/Page.s"
+	@echo "... src/PageContent.o"
+	@echo "... src/PageContent.i"
+	@echo "... src/PageContent.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/xref.o"
+	@echo "... src/xref.i"
+	@echo "... src/xref.s"
 .PHONY : help
 
 

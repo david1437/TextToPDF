@@ -39,15 +39,15 @@ endobj
 
 5 0 obj % page content
 <<
-	/length 67
+	/length 74
 >>
 stream
 BT
 100 100 TD
 /F1 12 Tf
 (hello, world!) Tj
-T*
-(1...2...3...) Tj
+(1...2...3...) '
+(START!) '
 ET
 endstream
 endobj
@@ -66,5 +66,5 @@ trailer
 	/Root 1 0 R
 >>
 startxref
-511
+518
 %%EOF

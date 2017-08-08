@@ -81,17 +81,173 @@ CMakeFiles/bin/TextToPDF.dir/src/main.cpp.o.provides: CMakeFiles/bin/TextToPDF.d
 CMakeFiles/bin/TextToPDF.dir/src/main.cpp.o.provides.build: CMakeFiles/bin/TextToPDF.dir/src/main.cpp.o
 
 
+CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o: CMakeFiles/bin/TextToPDF.dir/flags.make
+CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o: src/EntryPoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/c++/Projects/TextToPDF/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o -c /home/david/Documents/c++/Projects/TextToPDF/src/EntryPoint.cpp
+
+CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/c++/Projects/TextToPDF/src/EntryPoint.cpp > CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.i
+
+CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/c++/Projects/TextToPDF/src/EntryPoint.cpp -o CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.s
+
+CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o.requires:
+
+.PHONY : CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o.requires
+
+CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o.provides: CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o.provides.build
+.PHONY : CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o.provides
+
+CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o.provides.build: CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o
+
+
+CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o: CMakeFiles/bin/TextToPDF.dir/flags.make
+CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o: src/Font.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/c++/Projects/TextToPDF/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o -c /home/david/Documents/c++/Projects/TextToPDF/src/Font.cpp
+
+CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/c++/Projects/TextToPDF/src/Font.cpp > CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.i
+
+CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/c++/Projects/TextToPDF/src/Font.cpp -o CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.s
+
+CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o.requires:
+
+.PHONY : CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o.requires
+
+CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o.provides: CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o.provides.build
+.PHONY : CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o.provides
+
+CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o.provides.build: CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o
+
+
+CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o: CMakeFiles/bin/TextToPDF.dir/flags.make
+CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o: src/Layout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/c++/Projects/TextToPDF/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o -c /home/david/Documents/c++/Projects/TextToPDF/src/Layout.cpp
+
+CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/c++/Projects/TextToPDF/src/Layout.cpp > CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.i
+
+CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/c++/Projects/TextToPDF/src/Layout.cpp -o CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.s
+
+CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o.requires:
+
+.PHONY : CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o.requires
+
+CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o.provides: CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o.provides.build
+.PHONY : CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o.provides
+
+CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o.provides.build: CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o
+
+
+CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o: CMakeFiles/bin/TextToPDF.dir/flags.make
+CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o: src/PageContent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/c++/Projects/TextToPDF/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o -c /home/david/Documents/c++/Projects/TextToPDF/src/PageContent.cpp
+
+CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/c++/Projects/TextToPDF/src/PageContent.cpp > CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.i
+
+CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/c++/Projects/TextToPDF/src/PageContent.cpp -o CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.s
+
+CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o.requires:
+
+.PHONY : CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o.requires
+
+CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o.provides: CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o.provides.build
+.PHONY : CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o.provides
+
+CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o.provides.build: CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o
+
+
+CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o: CMakeFiles/bin/TextToPDF.dir/flags.make
+CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o: src/Page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/c++/Projects/TextToPDF/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o -c /home/david/Documents/c++/Projects/TextToPDF/src/Page.cpp
+
+CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/c++/Projects/TextToPDF/src/Page.cpp > CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.i
+
+CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/c++/Projects/TextToPDF/src/Page.cpp -o CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.s
+
+CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o.requires:
+
+.PHONY : CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o.requires
+
+CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o.provides: CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o.provides.build
+.PHONY : CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o.provides
+
+CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o.provides.build: CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o
+
+
+CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o: CMakeFiles/bin/TextToPDF.dir/flags.make
+CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o: src/xref.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/david/Documents/c++/Projects/TextToPDF/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o -c /home/david/Documents/c++/Projects/TextToPDF/src/xref.cpp
+
+CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/david/Documents/c++/Projects/TextToPDF/src/xref.cpp > CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.i
+
+CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/david/Documents/c++/Projects/TextToPDF/src/xref.cpp -o CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.s
+
+CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o.requires:
+
+.PHONY : CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o.requires
+
+CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o.provides: CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bin/TextToPDF.dir/build.make CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o.provides.build
+.PHONY : CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o.provides
+
+CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o.provides.build: CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o
+
+
 # Object files for target bin/TextToPDF
 bin/TextToPDF_OBJECTS = \
-"CMakeFiles/bin/TextToPDF.dir/src/main.cpp.o"
+"CMakeFiles/bin/TextToPDF.dir/src/main.cpp.o" \
+"CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o" \
+"CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o" \
+"CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o" \
+"CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o" \
+"CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o" \
+"CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o"
 
 # External object files for target bin/TextToPDF
 bin/TextToPDF_EXTERNAL_OBJECTS =
 
 bin/TextToPDF: CMakeFiles/bin/TextToPDF.dir/src/main.cpp.o
+bin/TextToPDF: CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o
+bin/TextToPDF: CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o
+bin/TextToPDF: CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o
+bin/TextToPDF: CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o
+bin/TextToPDF: CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o
+bin/TextToPDF: CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o
 bin/TextToPDF: CMakeFiles/bin/TextToPDF.dir/build.make
 bin/TextToPDF: CMakeFiles/bin/TextToPDF.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/david/Documents/c++/Projects/TextToPDF/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/TextToPDF"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/david/Documents/c++/Projects/TextToPDF/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable bin/TextToPDF"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bin/TextToPDF.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +256,12 @@ CMakeFiles/bin/TextToPDF.dir/build: bin/TextToPDF
 .PHONY : CMakeFiles/bin/TextToPDF.dir/build
 
 CMakeFiles/bin/TextToPDF.dir/requires: CMakeFiles/bin/TextToPDF.dir/src/main.cpp.o.requires
+CMakeFiles/bin/TextToPDF.dir/requires: CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o.requires
+CMakeFiles/bin/TextToPDF.dir/requires: CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o.requires
+CMakeFiles/bin/TextToPDF.dir/requires: CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o.requires
+CMakeFiles/bin/TextToPDF.dir/requires: CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o.requires
+CMakeFiles/bin/TextToPDF.dir/requires: CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o.requires
+CMakeFiles/bin/TextToPDF.dir/requires: CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o.requires
 
 .PHONY : CMakeFiles/bin/TextToPDF.dir/requires
 

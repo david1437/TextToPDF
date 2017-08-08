@@ -1,5 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bin/TextToPDF.dir/src/main.cpp.o"
+  "CMakeFiles/bin/TextToPDF.dir/src/EntryPoint.cpp.o"
+  "CMakeFiles/bin/TextToPDF.dir/src/Font.cpp.o"
+  "CMakeFiles/bin/TextToPDF.dir/src/Layout.cpp.o"
+  "CMakeFiles/bin/TextToPDF.dir/src/PageContent.cpp.o"
+  "CMakeFiles/bin/TextToPDF.dir/src/Page.cpp.o"
+  "CMakeFiles/bin/TextToPDF.dir/src/xref.cpp.o"
   "bin/TextToPDF.pdb"
   "bin/TextToPDF"
 )

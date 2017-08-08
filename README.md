@@ -1,8 +1,15 @@
 # TextToPDF
-doc folder contains PDF ISO standard that will be implemented
+Compile by entering command "make"
 
-compile by typing make in the main directory
+Run from succesfull build "TextToPDF" in the bin folder
 
-bin contains the executable
+Needs a path as a command line argument ie. "TextToPDF data/mobydick.txt"
 
-currently outputs data from file test/text.txt
+Currently only works on txt files, this may change in the future
+
+# Possible Updates
+Make main.cpp into a class called PDF to tidy up main
+
+Make each cpp file have a header rather than one header file having multiple cpp files
+
+Add support for images / cataloging

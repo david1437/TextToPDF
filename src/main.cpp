@@ -3,8 +3,8 @@
 #include "../inc/objects.h"
 #include "../inc/xref.h"
 #include <vector>
-#include <algorithm>
-#include <iterator>
+#include <algorithm> //for count
+#include <iterator> //for istream iterators
 
 using namespace std;
 
@@ -12,33 +12,47 @@ const int LINES_PER_PAGE = 65;
 
 int main(int argc, char* argv[]) {
 
-	if(argc != 2)
+	if(argc != 2) { //makes sure they enter a path
+		cout << "Proper format is \"TextToPDF [path of file to convert]\"" << endl;
 		return 1;
+	}
 
 	string file_to_open = argv[1];
 
-	int object_count = 1;
-	string line;
-	long line_counter = 0;
-	ifstream inf(file_to_open);
-	inf.unsetf(ios_base::skipws);
-	long line_total = (count(istream_iterator<char>(inf), istream_iterator<char>(), '\n'));
+	int object_count = 1; //keeps track of obj count for xref
+	string line; //holds the lines from the txt file
+	long line_counter = 0; //counts lines as the file is reado
+
+	ifstream inf;
+
+	try {
+		inf.open(file_to_open); //opens files
+	}
+	catch (ifstream::failure e){
+		cerr << "Exception opeining file at dir path " << file_to_open << endl;
+		return 1;
+	}
+
+	inf.unsetf(ios_base::skipws); //allows new line characters to be read
+	long line_total = (count(istream_iterator<char>(inf), istream_iterator<char>(), '\n')); //counts all lines all at once
 	vector< vector < string > > lines(line_total);
 	
 	inf.clear();
 	inf.seekg(0, ios::beg);
 
-	if(inf.is_open()) {
+	if(inf.is_open()) { //loops through file adding all the lines to the lines vector
 		while(getline(inf, line)) {
 			lines[line_counter / LINES_PER_PAGE].push_back(line);
 			line_counter++;
 		}
 		inf.close();
 	}
-	else
+	else {
+		cerr << "FIle not opened make sure path is correct!" << endl;
 		return 1;
+	}
 
-	string whole_file("%PDF-1.7\n\n");
+	string whole_file("%PDF-1.7\n\n"); //creates PDF objects
 	string n("1 0 obj");
 	EntryPoint ep(n);
 	object_count++;
@@ -78,8 +92,10 @@ int main(int argc, char* argv[]) {
 	xref x(object_count, whole_file);
 	whole_file += x.getXrefObjectString();
 
-	ofstream of("bin/result.pdf");
+	ofstream of("bin/result.pdf"); //writes pdf structure to the output file
 	of << whole_file;
+
+	cout << "FIle written to bin/result.pdf succesfully!" << endl;
 
 }
 
